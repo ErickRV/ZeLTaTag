@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeLTaTag.Tool", "ZeLTaTag.Tool\ZeLTaTag.Tool.csproj", "{D7D92567-C208-4874-9E4A-3E4C60198614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeLTaTag.Test", "ZeLTaTag.Test\ZeLTaTag.Test.csproj", "{3D9FF509-A77A-47FA-94BB-61F7BEF18CE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{3C262AE6-2521-482A-80F6-8E9841A3358B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "Examples\ConsoleExample\ConsoleExample.csproj", "{8F84C19D-DB27-49DA-A8B8-ADB49C1F8584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D92567-C208-4874-9E4A-3E4C60198614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D92567-C208-4874-9E4A-3E4C60198614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D92567-C208-4874-9E4A-3E4C60198614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D92567-C208-4874-9E4A-3E4C60198614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9FF509-A77A-47FA-94BB-61F7BEF18CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9FF509-A77A-47FA-94BB-61F7BEF18CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9FF509-A77A-47FA-94BB-61F7BEF18CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9FF509-A77A-47FA-94BB-61F7BEF18CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F84C19D-DB27-49DA-A8B8-ADB49C1F8584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F84C19D-DB27-49DA-A8B8-ADB49C1F8584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F84C19D-DB27-49DA-A8B8-ADB49C1F8584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F84C19D-DB27-49DA-A8B8-ADB49C1F8584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F84C19D-DB27-49DA-A8B8-ADB49C1F8584} = {3C262AE6-2521-482A-80F6-8E9841A3358B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C56A2348-7C81-4353-9617-B95AB8290273}
+	EndGlobalSection
+EndGlobal
